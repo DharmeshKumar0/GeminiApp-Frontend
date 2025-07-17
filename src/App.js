@@ -19,6 +19,7 @@ function App() {
       console.log(res.data.response);
       // You can handle the response here, e.g., update state with the response
       setResponse(res.data.response);
+      setQuestion(''); // Clear the question input after submission
     }).catch(err =>{
       console.error("Error fetching response:", err);
       // Handle error appropriately, e.g., show an error message to the user
