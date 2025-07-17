@@ -43,7 +43,7 @@ function App() {
         <img className='pic' src={require('../src/assets/vecteezy_impressive-distinguished-man-with-a-beard-wearing-a-casual_60417008.png')} alt="profile pic" />
        </div>
        <p className='label'>Question</p>
-       <textarea onChange={(e)=>{setQuestion(e.target.value)}} />
+       <textarea value={question} onChange={(e)=>{setQuestion(e.target.value)}} />
        <button onClick={submitHandler} >Send</button>
      </div>
      <div className='box'>
