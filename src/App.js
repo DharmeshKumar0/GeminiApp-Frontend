@@ -40,7 +40,7 @@ function App() {
     <div className="App">
      <div className='box'>
        <div className="profile-pic">
-        <img className='pic' src={require('../src/assets/WhatsApp Image 2025-07-16 at 19.53.38_c7132e15.jpg')} alt="profile pic" />
+        <img className='pic' src={require('../src/assets/vecteezy_technology-ai-artificial-intelligence-ship-in-brain-hi-tech_22587498.png')} alt="profile pic" />
        </div>
        <p className='label'>Question</p>
        <textarea value={question} onChange={(e)=>{setQuestion(e.target.value)}} />
